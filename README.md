@@ -1,10 +1,12 @@
 # Moog React Node Express Patchbook Application
 
-# Live link (Heroku)
+## Live link (Heroku)
+* [Heroku](https://moog-pern-app.herokuapp.com/home)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Framework
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br>
-in addition to Node, Express, JS, PosgreSQL and React Router.
+* in addition to Node, Express, JS, PosgreSQL and React Router.
 
 ## Demo
 * No need to signup, you can login with the following credentials:
