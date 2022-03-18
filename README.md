@@ -1,6 +1,6 @@
 # Moog React Node Express Patchbook Application
 
-## Live link (Heroku)
+## Live link
 * [Heroku](https://moog-pern-app.herokuapp.com/home)
 
 ## Framework
@@ -12,9 +12,9 @@
 * No need to signup, you can login with the following credentials:
 
  <br>
-username | password     | email  
+* username | password     | email  
  <br>
-testme   | test         | testme@test.com
+* testme   | test         | testme@test.com
 
 ## Homepage
 
@@ -44,7 +44,9 @@ In the project directory, you can run:
 ### `npm i` from root folder for server dependencies
 ### `npm i` from client folder for client dependcies
 
-### `npm start`
+### `npm start` from client folder to run front-end
+### `npx nodemon index.js` from root folder to run back-end
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
