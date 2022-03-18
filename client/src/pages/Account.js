@@ -60,9 +60,6 @@ const Account = ({ setAuth }) => {
         <div className="account-div2">
           <h1 className="account-header">Account Details</h1>
           <div className="account-div-wordwrap">
-            <div>
-              <div className="account-section"></div>
-            </div>
             <div className="account-content">
               <h2>Please choose master {username}</h2>
               <h2>Please choose master {username}</h2>
@@ -96,11 +93,11 @@ const Account = ({ setAuth }) => {
               </Link>
             </div>
           </div>
-          <div>
-            <Link className="btn-signup" to={`/account/${id}`}>
+          <div className="account-btn-div">
+            <Link className="account-btn-edit" to={`/account/${id}`}>
               Edit
             </Link>
-            <button onClick={(e) => logout(e)} className="account-btn">
+            <button onClick={(e) => logout(e)} className="account-btn-logout">
               Logout
             </button>
           </div>

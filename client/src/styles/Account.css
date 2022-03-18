@@ -3,7 +3,7 @@
 /* font animation */
 .account-div-wordwrap {
 
-/* min-height: 90vh; */
+/* max-height: 90vh; */
 align-items: center;
 justify-content: center;
 box-sizing: border-box;
@@ -24,9 +24,9 @@ padding: auto;
 
 .account-content h2 {
 color: #fff;
-font-size: 4vh;
-font-size: 4vw;
-position: fixed;
+font-size: 3rem;
+font-size: 3rem;
+position: absolute;
 margin-top: 10rem;
 
 }
@@ -73,6 +73,15 @@ clip-path: polygon(
 );
 }
 }
+
+ @media screen and (max-width: 870px) {
+    .account-content h2 {
+        font-size: 2rem;
+        font-size: 2rem;
+    }
+} 
+
+
 /* font animation */
 
 
@@ -86,12 +95,12 @@ clip-path: polygon(
   
   .account-templates-div {
     padding-top: 11rem;
-    padding-bottom: 3rem ;
+    padding-bottom: 1rem ;
     
   }
   
   .account-cover-img {
-    width: 25%;
+    width: 20%;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -99,7 +108,7 @@ clip-path: polygon(
     float: center;
     margin: auto;
     padding: 1rem;
-    height: 20rem;
+    height: 15rem;
     object-fit: cover;
   }
   .account-cover-img:hover {
@@ -111,8 +120,10 @@ clip-path: polygon(
     .account-cover-img {
         width: 10rem;
         height: 10rem;
+        
     }
 }
+
 /* template images */
 
 
@@ -134,11 +145,7 @@ padding-top: 3rem;
 .account-header {
     font-size: 3em;
 }
-.account-header-username {
-    font-size: 3em;
-    padding-top: 2rem;
-    color:rgb(175, 237, 122);
-}
+
 
 
 .account-form {
@@ -148,19 +155,62 @@ padding-top: 3rem;
     position: relative;
 }
 
-.account-btn {
+/* .account-btn-div {
+    
+   top: 150%;
+    
+    
+} */
+
+.account-btn-edit {
     background-color: rgb(214, 80, 99);
     color: white;
     font-weight: bold;
-    font-size: 25px;
-    margin: 3rem;
-    margin-right: 0.5rem;
+    font-size: 22px;
+    margin: 2rem;
+    
     padding: 10px 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.account-btn:hover {
+.account-btn-logout {
+    background-color: rgb(214, 80, 99);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 2rem;
+   
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-btn-edit:hover {
     background-color: #555;
+}
+
+.account-btn-logout:hover {
+    background-color: #555;
+}
+
+/* @media screen and (max-width: 870px) {
+    .account-btn-logout {
+       top: 10%;
+       
+    }
+} */
+
+@media screen and (max-width: 870px) {
+    .account-btn-edit, .account-btn-logout {
+     font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .account-btn-div {
+     margin-top: -2rem;
+    }
 }

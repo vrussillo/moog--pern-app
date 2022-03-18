@@ -86,7 +86,7 @@ input:focus {
 }
 @media screen and (max-width: 960px) {
     .btn-signup {
-     width: 30%;
+
      display:inline;
     }
 }
@@ -95,8 +95,8 @@ input:focus {
     background-color: rgb(214, 80, 99);
     color: white;
     font-weight: bold;
-    font-size: 25px;
-    margin: 3rem;
+    font-size: 22px;
+    margin: 2rem;
     margin-right: 0.5rem;
     padding: 10px 24px;
     border: none;

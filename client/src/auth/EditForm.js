@@ -146,7 +146,7 @@ const EditForm = ({ setAuth }) => {
               ) : null} */}
 
                   <button type="submit" className="btn-edit">
-                    Submit Edit
+                    Submit
                   </button>
                   <Link className="btn-edit" to="/account">
                     Back
