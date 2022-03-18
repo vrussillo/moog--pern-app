@@ -17,57 +17,62 @@
 
 .dark-btn-play {
     position: absolute;
-    left: 11%;
-    top: 90%;
+    left: 81.1%;
+    top: 12.5%;
+    width: 10vw;
+    height: 2.4em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(214, 80, 99);
     color: white;
     font-weight: bold;
-    font-size: 20px;
-    padding: 12px 24px;
+    font-size: 1.1vw;
+    padding: auto;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .lbd-btn-play {
     position: absolute;
-    left: 70%;
-    top: 11.5%;
+    left: 81.1%;
+    top: 12.5%;
+    width: 10vw;
+    height: 2.4em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(93, 149, 204);
     color: white;
     font-weight: bold;
-    font-size: 20px;
-    padding: 11px 24px;
+    font-size: 1.1vw;
+    padding: auto;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .md-btn-play {
     position: absolute;
-    left: 70%;
-    top: 10%;
+    left: 81.1%;
+    top: 10.5%;
+    width: 10vw;
+    height: 2.6em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(121, 166, 94);
     color: white;
     font-weight: bold;
-    font-size: 20px;
-    padding: 12px 24px;
+    font-size: 1.1vw;
+    padding: auto;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
-@media all and (max-width: 950px){
+/* @media all and (max-width: 950px){
     .dark-btn-play, .lbd-btn-play, .md-btn-play {
     display: flex;
     margin: -0.5rem 0rem 0rem 1rem;
     width: 17vw;
-    height: 5vw;
     padding-bottom: 25px;
     padding-left: 15px;
     padding-top: 5px;
@@ -75,7 +80,7 @@
     overflow-x: auto;
     font-size: 15px;
     }
-}
+} */
 
 
 

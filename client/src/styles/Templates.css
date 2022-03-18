@@ -1,7 +1,7 @@
 .header-patchbook-dark {
     margin: auto;
     padding-bottom: 4px;
-    width: 70%;
+    width: 70vw;
     color: rgb(255, 255, 255);
     background-color: rgb(35, 31, 32);
     border-top-left-radius: 10px;
@@ -10,7 +10,7 @@
   .header-patchbook-lbd {
     margin: auto;
     padding-bottom: 4px;
-    width: 70%;
+    width: 70vw;
     color: rgb(255, 255, 255);
     background-color: rgb(213, 71, 145);
     border-top-left-radius: 10px;
@@ -19,7 +19,7 @@
   .header-patchbook-md {
     margin: auto;
     padding-bottom: 4px;
-    width: 70%;
+    width: 70vw;
     color: rgb(255, 255, 255);
     background-color: rgb(122, 166, 94);
     border-top-left-radius: 10px;
@@ -53,6 +53,7 @@
   }
   @media screen and (max-width: 870px) {
     .header-patchbook-dark, .header-patchbook-lbd, .header-patchbook-md {
-      font-size: 20px;
+      font-size: 3vw;
+      padding-top: 2px;
     }
 }

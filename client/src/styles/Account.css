@@ -24,10 +24,10 @@ padding: auto;
 
 .account-content h2 {
 color: #fff;
-font-size: 3rem;
-font-size: 3rem;
+font-size: 5vh;
+font-size: 5vw;
 position: absolute;
-margin-top: 10rem;
+margin-top: 7rem;
 
 }
 
@@ -75,9 +75,9 @@ clip-path: polygon(
 }
 
  @media screen and (max-width: 870px) {
-    .account-content h2 {
+    .account-content h2, .account-header {
         font-size: 2rem;
-        font-size: 2rem;
+        
     }
 } 
 
@@ -94,13 +94,13 @@ clip-path: polygon(
 
   
   .account-templates-div {
-    padding-top: 11rem;
+    padding-top: 9rem;
     padding-bottom: 1rem ;
     
   }
   
   .account-cover-img {
-    width: 20%;
+    width: 25%;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -116,6 +116,14 @@ clip-path: polygon(
     transition: all 0.4s ease-out;
     
   }
+  @media screen and (max-width: 1250px) {
+    .account-cover-img {
+        width: 13rem;
+        height: 13rem;
+        
+    }
+}
+
   @media screen and (max-width: 870px) {
     .account-cover-img {
         width: 10rem;
@@ -132,18 +140,19 @@ clip-path: polygon(
     url("/public/images/MoogSynth.png");
     background-size: 40%;
     background-repeat: repeat;
-    min-height: 92vh;
+    min-height: 90vh;
     color: white;
     font-weight: bold;
 }
 .account-div2  {
 background-color: rgba(0, 0, 0, 0.7);
 min-height: 92vh;
-padding-top: 3rem;
+padding-top: 2rem;
 }
 
 .account-header {
-    font-size: 3em;
+    font-size: 4vh;
+    font-size: 4vw;
 }
 
 
