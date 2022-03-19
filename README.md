@@ -6,15 +6,14 @@
 
 ## Framework
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<br>
-* in addition to Node, Express, JS, PosgreSQL, React Router and a custom Restful API.
+* In addition to Node, Express, JS, PosgreSQL, React Router and a custom Restful API.
 
 ## Demo
 * No need to signup, you can login with the following credentials:
 
- <br>
+
 * username | password     | email  
- <br>
+
 * testme   | test         | testme@test.com
 
 ## Homepage
