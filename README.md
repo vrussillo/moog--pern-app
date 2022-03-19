@@ -1,4 +1,4 @@
-# Moog React Node Express Patchbook Application
+# Moog Patchbook Application
 * The main objective of this app is to provide audio previews for Analog Synth patches, currently for the Semi-Modular Moog Grandmother. 
 
 ## Live link
