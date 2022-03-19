@@ -1,4 +1,5 @@
 # Moog React Node Express Patchbook Application
+* The main objective of this app is to provide audio previews for Analog Synth patches, currently for the Semi-Modular Moog Grandmother. 
 
 ## Live link
 * [Heroku](https://moog-pern-app.herokuapp.com/home)
@@ -6,7 +7,7 @@
 ## Framework
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br>
-* in addition to Node, Express, JS, PosgreSQL and React Router.
+* in addition to Node, Express, JS, PosgreSQL, React Router and a custom Restful API.
 
 ## Demo
 * No need to signup, you can login with the following credentials:

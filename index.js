@@ -29,6 +29,8 @@ app.use("/templates/dark", require("./routes/account"));
 app.use("/templates/lbd", require("./routes/account"));
 app.use("/templates/md", require("./routes/account"));
 
+// app.use("/favorites", require("./routes/account"));
+
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build/index.html"));
 });
