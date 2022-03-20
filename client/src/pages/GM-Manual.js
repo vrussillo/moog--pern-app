@@ -27,6 +27,7 @@ function GM() {
         className="patch-img"
         alt="Cover"
       />
+
       <div className="patch-div">
         <img
           src="/templates/GM-Manual/GM-1.png"
