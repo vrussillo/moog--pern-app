@@ -28,6 +28,7 @@ app.use("/templates", require("./routes/account"));
 app.use("/templates/dark", require("./routes/account"));
 app.use("/templates/lbd", require("./routes/account"));
 app.use("/templates/md", require("./routes/account"));
+app.use("/templates/gm", require("./routes/account"));
 
 // app.use("/favorites", require("./routes/account"));
 

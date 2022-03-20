@@ -91,6 +91,14 @@ const Account = ({ setAuth }) => {
                   alt="Mike Dean"
                 />
               </Link>
+
+              <Link to={`/templates/gm/${id}`}>
+                <img
+                  className="account-cover-img"
+                  src="../templates/Covers/GM-Cover.png"
+                  alt="Manual"
+                />
+              </Link>
             </div>
           </div>
           <div className="account-btn-div">

@@ -36,6 +36,16 @@ const Templates = () => {
               alt="Dark"
             />
           </Link>
+          <h1 className="header-patchbook-gm">
+            Grandmother - Manual Patchbook{" "}
+          </h1>
+          <Link to={`/templates/gm/${id}`}>
+            <img
+              className="cover-img"
+              src="../templates/Covers/GM-Cover.png"
+              alt="Manual"
+            />
+          </Link>
           <h1 className="header-patchbook-lbd">Grandmother - LBD Patchbook </h1>
           <Link to={`/templates/lbd/${id}`}>
             <img

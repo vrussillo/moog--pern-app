@@ -18,9 +18,3 @@ function Create() {
 }
 
 export default Create;
-
-// <body className="moog-img-synth-create">
-// <div className="create-div">
-//   <h1 className="loading-h1">Loading...</h1>
-// </div>
-// </body>

@@ -2,6 +2,7 @@ import "../styles/Patchbooks.css";
 import { list } from "./imports/MikeDeanImports";
 
 function MikeDean() {
+  // Audio Button
   const audios = list.map((audio) => new Audio(audio));
 
   const getCurrentAudio = () => {
@@ -17,7 +18,7 @@ function MikeDean() {
 
     nextAudio.paused ? nextAudio.play() : nextAudio.pause();
   };
-
+  // Audio Button
   return (
     <div className="patches-div">
       <img

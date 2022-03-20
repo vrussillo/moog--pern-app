@@ -10,6 +10,7 @@ import EditForm from "./auth/EditForm";
 import Dark from "./pages/Dark";
 import LBD from "./pages/LBD";
 import MikeDean from "./pages/MikeDean";
+import GM from "./pages/GM-Manual";
 // import HeartButton from "./components/Favorites";
 
 function WebRoutes() {
@@ -102,6 +103,14 @@ function WebRoutes() {
     );
   };
 
+  const AuthGM = (children) => {
+    return isAuthenticated ? (
+      <GM {...children} setAuth={setAuth} />
+    ) : (
+      <Navigate to="/signup" />
+    );
+  };
+
   return (
     <Fragment>
       <Routes>
@@ -110,6 +119,7 @@ function WebRoutes() {
         <Route exact path="/templates" element={<AuthTemplates />}></Route>
         <Route exact path="/templates/dark/:id" element={<AuthDark />}></Route>
         <Route exact path="/templates/lbd/:id" element={<AuthLBD />}></Route>
+        <Route exact path="/templates/gm/:id" element={<AuthGM />}></Route>
         <Route
           exact
           path="/templates/mikedean/:id"

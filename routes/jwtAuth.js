@@ -96,53 +96,53 @@ router.delete("/account/:id", async (req, res) => {
   }
 });
 
-// Get Pages Route
-router.get("/pages", async (req, res) => {
-  const { id } = req.params;
-  const { template_id, page_number, page_name, tags } = req.body;
-  try {
-    const page = await pool.query("SELECT * FROM pages WHERE id = $1", [
-      template_id,
-      page_number,
-      page_name,
-      tags,
-      id,
-    ]);
+// // Get Pages Route
+// router.get("/pages", async (req, res) => {
+//   const { id } = req.params;
+//   const { template_id, page_number, page_name, tags } = req.body;
+//   try {
+//     const page = await pool.query("SELECT * FROM pages WHERE id = $1", [
+//       template_id,
+//       page_number,
+//       page_name,
+//       tags,
+//       id,
+//     ]);
 
-    return res.json(page.rows);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send("Server error");
-  }
-});
+//     return res.json(page.rows);
+//   } catch (err) {
+//     console.error(err.message);
+//     res.status(500).send("Server error");
+//   }
+// });
 
-//Post Favorite Route
-router.post("/favorite", async (req, res) => {
-  const { id } = req.params;
-  const { template_id, page_number, page_name, tags } = req.body;
-  try {
-    const page = await pool.query(
-      "SELECT * FROM pages WHERE id = $1 RETURNING *",
-      [template_id, page_number, page_name, tags, id]
-    );
+// //Post Favorite Route
+// router.post("/favorite", async (req, res) => {
+//   const { id } = req.params;
+//   const { template_id, page_number, page_name, tags } = req.body;
+//   try {
+//     const page = await pool.query(
+//       "SELECT * FROM pages WHERE id = $1 RETURNING *",
+//       [template_id, page_number, page_name, tags, id]
+//     );
 
-    if (page == page) {
-      return res.status(200).json(page.rows[0]);
-    }
+//     if (page == page) {
+//       return res.status(200).json(page.rows[0]);
+//     }
 
-    const { user_id, template_id, page_id } = req.body;
+//     const { user_id, template_id, page_id } = req.body;
 
-    let newFavorite = await pool.query(
-      "INSERT INTO favorites (user_id, template_id, page_id) VALUES ($1, $2, $3) RETURNING *",
-      [user_id, template_id, page_id]
-    );
+//     let newFavorite = await pool.query(
+//       "INSERT INTO favorites (user_id, template_id, page_id) VALUES ($1, $2, $3) RETURNING *",
+//       [user_id, template_id, page_id]
+//     );
 
-    return res.status(200).json(newFavorite.rows[0].id);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send("Server error");
-  }
-});
+//     return res.status(200).json(newFavorite.rows[0].id);
+//   } catch (err) {
+//     console.error(err.message);
+//     res.status(500).send("Server error");
+//   }
+// });
 
 // Verify
 router.post("/verify", authorize, (req, res) => {

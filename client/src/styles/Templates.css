@@ -25,6 +25,16 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+
+  .header-patchbook-gm {
+    margin: auto;
+    padding-bottom: 4px;
+    width: 70vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 31, 32);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
   
   .templates-div-wrap {
     background-image: 
@@ -52,7 +62,7 @@
     
   }
   @media screen and (max-width: 870px) {
-    .header-patchbook-dark, .header-patchbook-lbd, .header-patchbook-md {
+    .header-patchbook-dark, .header-patchbook-lbd, .header-patchbook-md, .header-patchbook-gm {
       font-size: 3vw;
       padding-top: 2px;
     }

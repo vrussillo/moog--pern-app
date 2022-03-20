@@ -2,6 +2,7 @@ import "../styles/Patchbooks.css";
 import { list } from "./imports/LBDImports";
 
 function LBD() {
+  // Audio Button
   const audios = list.map((audio) => new Audio(audio));
 
   const getCurrentAudio = () => {
@@ -17,6 +18,7 @@ function LBD() {
 
     nextAudio.paused ? nextAudio.play() : nextAudio.pause();
   };
+  // Audio Button
 
   return (
     <div className="patches-div">
