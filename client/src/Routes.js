@@ -4,6 +4,7 @@ import Account from "./pages/Account";
 import Templates from "./pages/Templates";
 import Create from "./pages/Create";
 import Home from "./pages/Home";
+import About from "./pages/About";
 import LoginForm from "./auth/LoginForm";
 import SignUpForm from "./auth/SignupForm";
 import EditForm from "./auth/EditForm";
@@ -116,6 +117,7 @@ function WebRoutes() {
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/home" element={<Home />}></Route>
+        <Route exact path="/about" element={<About />}></Route>
         <Route exact path="/templates" element={<AuthTemplates />}></Route>
         <Route exact path="/templates/dark/:id" element={<AuthDark />}></Route>
         <Route exact path="/templates/lbd/:id" element={<AuthLBD />}></Route>

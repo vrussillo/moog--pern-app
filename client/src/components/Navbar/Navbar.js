@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import { ButtonSignup } from "./ButtonSignup";
-// import { ButtonLogin } from "./ButtonLogin";
 import "./Navbar.css";
 import image from "./mooglogo.png";
 import { Link } from "react-router-dom";

@@ -8,6 +8,7 @@
     outline: none;
     border: none;
     cursor: pointer;
+    margin-bottom: 18px;
 }
 
 .btn:hover {
