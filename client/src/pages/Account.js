@@ -75,6 +75,13 @@ const Account = ({ setAuth }) => {
                   alt="Dark"
                 />
               </Link>
+              <Link to={`/templates/gm/${id}`}>
+                <img
+                  className="account-cover-img"
+                  src="../templates/Covers/GM-Cover.png"
+                  alt="Manual"
+                />
+              </Link>
 
               <Link to={`/templates/lbd/${id}`}>
                 <img
@@ -89,14 +96,6 @@ const Account = ({ setAuth }) => {
                   className="account-cover-img"
                   src="../templates/Covers/MikeDeanCover.png"
                   alt="Mike Dean"
-                />
-              </Link>
-
-              <Link to={`/templates/gm/${id}`}>
-                <img
-                  className="account-cover-img"
-                  src="../templates/Covers/GM-Cover.png"
-                  alt="Manual"
                 />
               </Link>
             </div>

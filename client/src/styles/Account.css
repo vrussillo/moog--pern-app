@@ -24,8 +24,8 @@ padding: auto;
 
 .account-content h2 {
 color: #fff;
-font-size: 5vh;
-font-size: 5vw;
+
+font-size: 8vmin;
 position: absolute;
 margin-top: 7rem;
 
@@ -74,9 +74,9 @@ clip-path: polygon(
 }
 }
 
- @media screen and (max-width: 870px) {
-    .account-content h2, .account-header {
-        font-size: 2rem;
+ @media screen and (max-width: 1260px) {
+    .account-content h2 {
+        font-size: 6vw;
         
     }
 } 
@@ -151,8 +151,7 @@ padding-top: 2rem;
 }
 
 .account-header {
-    font-size: 4vh;
-    font-size: 4vw;
+    font-size: 6vmin;
 }
 
 

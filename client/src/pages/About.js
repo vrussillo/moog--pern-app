@@ -12,10 +12,15 @@ function About() {
           <em>u</em>
           <em>t</em>
         </h1>
-
+        {/* <img
+          src="/images/moog-vector-logo-white.png"
+          className="moog-vector-logo"
+          alt="Logo"
+        /> */}
         <div class="about-container">
           <div class="about-content">
             <h1>Euføeni</h1>
+
             <h3>
               Hey there! I'm Vaughn, I go by the name of "Euføeni" for my music
               projects. This app was created using the PERN stack for my final
