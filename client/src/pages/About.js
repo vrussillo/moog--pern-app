@@ -7,7 +7,7 @@ function About() {
         <h1 className="h1-moog-rotate">
           <em>A</em>
           <em>b</em>
-          <em class="planet left">o</em>
+          <em className="planet left">o</em>
 
           <em>u</em>
           <em>t</em>
@@ -17,8 +17,8 @@ function About() {
           className="moog-vector-logo"
           alt="Logo"
         /> */}
-        <div class="about-container">
-          <div class="about-content">
+        <div className="about-container">
+          <div className="about-content">
             <h1>Euføeni</h1>
 
             <h3>
@@ -34,7 +34,7 @@ function About() {
               <a href="https://eufoeni.com/">https://eufoeni.com/</a>
             </h3>
           </div>
-          <div class="flap"></div>
+          <div className="flap"></div>
         </div>
       </div>
     </div>

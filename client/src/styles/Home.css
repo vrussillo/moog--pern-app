@@ -9,7 +9,7 @@ font-family: "Poppins", sans-serif;
 
 section {
 z-index: 10;
-min-height: 90vh;
+height: 88vh;
 align-items: center;
 justify-content: center;
 box-sizing: border-box;
@@ -19,7 +19,7 @@ font-family: "Poppins", sans-serif;
 .home-section {
 margin-top: 2px;
 background-size: cover;
-height: 90vh;
+height: 91vh;
 font-family: "Poppins", sans-serif;
 /* opacity: 30%; */
 }

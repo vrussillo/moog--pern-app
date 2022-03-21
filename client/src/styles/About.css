@@ -114,10 +114,6 @@ padding-top: 3rem;
   transition: 1s;
 }
 
-.moog-vector-logo:hover .flap::after {
-  transform: translatex(500px);
-}
-
 
 .about-container:hover .flap::after {
   transform: translatex(500px);
@@ -140,5 +136,13 @@ padding-top: 3rem;
     text-align: center;
   }
   
+
+  @media screen and (max-width: 900px) {
+    .about-container {
+       height: 14rem;
+       margin-top: 9rem;
+       
+    }
+}
 
   
