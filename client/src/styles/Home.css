@@ -7,9 +7,9 @@ box-sizing: border-box;
 font-family: "Poppins", sans-serif;
 } */
 
-section {
+.div-home-font {
 z-index: 10;
-height: 88vh;
+height: 20vh;
 align-items: center;
 justify-content: center;
 box-sizing: border-box;
@@ -17,9 +17,13 @@ font-family: "Poppins", sans-serif;
 }
 
 .home-section {
-margin-top: 2px;
-background-size: cover;
-height: 91vh;
+  background-image: 
+  url("/public/images/MoogSynth.png");
+  background-size: 40%;
+  background-repeat: repeat;
+  height: 90vh;
+  font-weight: bold;
+
 font-family: "Poppins", sans-serif;
 /* opacity: 30%; */
 }

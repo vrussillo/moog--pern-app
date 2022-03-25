@@ -140,7 +140,7 @@ clip-path: polygon(
     url("/public/images/MoogSynth.png");
     background-size: 40%;
     background-repeat: repeat;
-    min-height: 90vh;
+    height: 100%;
     color: white;
     font-weight: bold;
 }

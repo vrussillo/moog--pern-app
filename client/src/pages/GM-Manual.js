@@ -3,6 +3,7 @@ import { list } from "./imports/GMImports";
 
 function GM() {
   // Audio Button
+
   const audios = list.map((audio) => new Audio(audio));
 
   const getCurrentAudio = () => {
@@ -18,6 +19,17 @@ function GM() {
 
     nextAudio.paused ? nextAudio.play() : nextAudio.pause();
   };
+
+  // const stop = (nextAudio) => {
+  //   const currentAudio = getCurrentAudio();
+
+  //   if (currentAudio) {
+  //     currentAudio.pause();
+  //   }
+
+  //   nextAudio.paused ? nextAudio.pause() : nextAudio.pause();
+  // };
+
   // Audio Button
 
   return (

@@ -22,6 +22,8 @@ body {
   background-image: 
   url("/public/images/MoogSynth.png");
   background-size: 40%;
-  margin-top: -2px;
-  background-repeat: repeat; 
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
 }

@@ -3,13 +3,13 @@
     url("/public/images/MoogSynth.png");
     background-size: 40%;
     background-repeat: repeat;
-    min-height: 90vh;
+    height: 100%;
     color: white;
     font-weight: bold;
 }
 .about-div2  {
 background-color: rgba(0, 0, 0, 0.9);
-min-height: 92vh;
+min-height: 88vh;
 padding-top: 3rem;
 }
 
@@ -18,11 +18,7 @@ padding-top: 3rem;
     font-size: 4vw;
 }
 
-.about-para {
-    font-size: 4vh;
-    font-size: 4vw;
-    text-align: center;
-}
+
 .about-para-div {
     margin-top: 2rem;
     justify-content: center;
@@ -54,7 +50,7 @@ padding-top: 3rem;
   top: 50%;
   transform: translatey(-50%);
   text-align: center;
-  font-size: 1vw;
+  font-size: 15px;
   color: rgb(255, 255, 255);
   padding: 40px;
   font-family: 'Merriweather', serif;
@@ -139,8 +135,9 @@ padding-top: 3rem;
 
   @media screen and (max-width: 900px) {
     .about-container {
-       height: 14rem;
-       margin-top: 9rem;
+       height: 30rem;
+       width: 22rem;
+       margin-top: 17rem;
        
     }
 }

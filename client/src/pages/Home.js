@@ -2,7 +2,7 @@ import "../styles/Home.css";
 
 function Home() {
   return (
-    <section>
+    <div className="div-home-font">
       <div className="moog-img-synth">
         <div className="home-section"></div>
       </div>
@@ -10,7 +10,7 @@ function Home() {
         <h2>Welcome</h2>
         <h2>Welcome</h2>
       </div>
-    </section>
+    </div>
   );
 }
 

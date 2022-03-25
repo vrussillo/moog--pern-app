@@ -24,6 +24,8 @@ function WebRoutes() {
 
       const parseRes = await res.json();
 
+      // const stop = "onClick={(e) => e(Audio.pause)}";
+
       parseRes === true ? setIsAuthenticated(true) : setIsAuthenticated(false);
     } catch (err) {
       console.error(err.message);
@@ -80,13 +82,13 @@ function WebRoutes() {
     );
   };
 
-  const AuthTemplates = (children) => {
-    return isAuthenticated ? (
-      <Templates {...children} setAuth={setAuth} />
-    ) : (
-      <Navigate to="/signup" />
-    );
-  };
+  // const AuthTemplates = (children) => {
+  //   return isAuthenticated ? (
+  //     <Templates {...children} setAuth={setAuth} />
+  //   ) : (
+  //     <Navigate to="/signup" />
+  //   );
+  // };
 
   const AuthLBD = (children) => {
     return isAuthenticated ? (
@@ -118,7 +120,7 @@ function WebRoutes() {
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/home" element={<Home />}></Route>
         <Route exact path="/about" element={<About />}></Route>
-        <Route exact path="/templates" element={<AuthTemplates />}></Route>
+        <Route exact path="/templates" element={<Templates />}></Route>
         <Route exact path="/templates/dark/:id" element={<AuthDark />}></Route>
         <Route exact path="/templates/lbd/:id" element={<AuthLBD />}></Route>
         <Route exact path="/templates/gm/:id" element={<AuthGM />}></Route>
