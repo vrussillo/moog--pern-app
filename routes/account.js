@@ -17,7 +17,7 @@ router.get("/:id", authorize, async (req, res) => {
     res.status(500).send("Server error");
   }
 });
-
+//
 // router.get("/:id", authorize, async (req, res) => {
 //   try {
 //     const user = await pool.query("SELECT username FROM users WHERE id = $1", [
