@@ -1,0 +1,1466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="account-div"
+  >
+    <div
+      class="account-div2"
+    >
+      <h1
+        class="account-header"
+      >
+        Account Details
+      </h1>
+      <div
+        class="account-div-wordwrap"
+      >
+        <div
+          class="account-content"
+        >
+          <h2>
+            Please choose master 
+          </h2>
+          <h2>
+            Please choose master 
+          </h2>
+        </div>
+      </div>
+      <div
+        class="account-templates-div-wrap"
+      >
+        <div
+          class="account-templates-div"
+        >
+          <a
+            href="/templates/dark/"
+          >
+            <img
+              alt="Dark"
+              class="account-cover-img"
+              src="../templates/Covers/DarkCover.png"
+            />
+          </a>
+          <a
+            href="/templates/gm/"
+          >
+            <img
+              alt="Manual"
+              class="account-cover-img"
+              src="../templates/Covers/GM-Cover.png"
+            />
+          </a>
+          <a
+            href="/templates/lbd/"
+          >
+            <img
+              alt="LBD"
+              class="account-cover-img"
+              src="../templates/Covers/LBDCover.png"
+            />
+          </a>
+          <a
+            href="/templates/mikedean/"
+          >
+            <img
+              alt="Mike Dean"
+              class="account-cover-img"
+              src="../templates/Covers/MikeDeanCover.png"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="account-btn-div"
+      >
+        <a
+          class="account-btn-edit"
+          href="/account/"
+        >
+          Edit
+        </a>
+        <button
+          class="account-btn-logout"
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 2`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <nav
+      class="NavbarItems"
+    >
+      <div
+        class="moog-container"
+      >
+        <a
+          href="https://www.moogmusic.com/"
+        >
+          <h1
+            class="navbar-logo"
+          >
+            <img
+              alt="Moog"
+              class="moog-img"
+              src="mooglogo.png"
+            />
+          </h1>
+        </a>
+      </div>
+      <div
+        class="menu-icon"
+      >
+        <i
+          class="fas fa-bars"
+        />
+      </div>
+      <ul
+        class="nav-menu"
+      >
+        <li>
+          <a
+            class="nav-links"
+            href="/home"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/templates"
+          >
+            Templates
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/create"
+          >
+            Create
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/account"
+          >
+            Account
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links-mobile"
+            href="/signup"
+          >
+            Sign Up
+          </a>
+        </li>
+      </ul>
+      <a
+        href="/signup"
+      >
+        <button
+          class="btn btn--primary btn--medium"
+        >
+          Sign Up
+        </button>
+      </a>
+    </nav>
+    <div
+      class="div-home-font"
+    >
+      <div
+        class="moog-img-synth"
+      >
+        <div
+          class="home-section"
+        />
+      </div>
+      <div
+        class="content"
+      >
+        <h2>
+          Welcome
+        </h2>
+        <h2>
+          Welcome
+        </h2>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 3`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <nav
+      class="NavbarItems"
+    >
+      <div
+        class="moog-container"
+      >
+        <a
+          href="https://www.moogmusic.com/"
+        >
+          <h1
+            class="navbar-logo"
+          >
+            <img
+              alt="Moog"
+              class="moog-img"
+              src="mooglogo.png"
+            />
+          </h1>
+        </a>
+      </div>
+      <div
+        class="menu-icon"
+      >
+        <i
+          class="fas fa-bars"
+        />
+      </div>
+      <ul
+        class="nav-menu"
+      >
+        <li>
+          <a
+            class="nav-links"
+            href="/home"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/templates"
+          >
+            Templates
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/create"
+          >
+            Create
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/account"
+          >
+            Account
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-links-mobile"
+            href="/signup"
+          >
+            Sign Up
+          </a>
+        </li>
+      </ul>
+      <a
+        href="/signup"
+      >
+        <button
+          class="btn btn--primary btn--medium"
+        >
+          Sign Up
+        </button>
+      </a>
+    </nav>
+    <div
+      class="div-home-font"
+    >
+      <div
+        class="moog-img-synth"
+      >
+        <div
+          class="home-section"
+        />
+      </div>
+      <div
+        class="content"
+      >
+        <h2>
+          Welcome
+        </h2>
+        <h2>
+          Welcome
+        </h2>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 4`] = `
+<DocumentFragment>
+  <div
+    class="div-home-font"
+  >
+    <div
+      class="moog-img-synth"
+    >
+      <div
+        class="home-section"
+      />
+    </div>
+    <div
+      class="content"
+    >
+      <h2>
+        Welcome
+      </h2>
+      <h2>
+        Welcome
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 5`] = `
+<DocumentFragment>
+  <div
+    class="about-div"
+  >
+    <div
+      class="about-div2"
+    >
+      <h1
+        class="h1-moog-rotate"
+      >
+        <em>
+          A
+        </em>
+        <em>
+          b
+        </em>
+        <em
+          class="planet left"
+        >
+          o
+        </em>
+        <em>
+          u
+        </em>
+        <em>
+          t
+        </em>
+      </h1>
+      <div
+        class="about-container"
+      >
+        <div
+          class="about-content"
+        >
+          <h1>
+            Euføeni
+          </h1>
+          <h3>
+            Hey there! I'm Vaughn, I go by the name of "Euføeni" for my music projects. This app was created using the PERN stack for my final project for a coding Bootcamp I'm attending. The basic idea of this site is to hear what patches sound like before having to replicate them on your own Moog Grandmother Synth. All of the previews you'll listen to were created by me with no Post-Processing to maintain the integrity of the raw Moog sound. If you're interested in my music, please visit my website:
+            <br />
+            <a
+              href="https://eufoeni.com/"
+            >
+              https://eufoeni.com/
+            </a>
+          </h3>
+        </div>
+        <div
+          class="flap"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 6`] = `
+<DocumentFragment>
+  <div
+    class="moog-img-div-create"
+  >
+    <div
+      class="create-div"
+    >
+      <div
+        class="content-load"
+      >
+        <h1
+          class="text-shadows"
+        >
+          Loading...
+        </h1>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 7`] = `
+<DocumentFragment>
+  <div
+    class="patches-div"
+  >
+    <img
+      alt="Cover"
+      class="patch-img"
+      src="/templates/Covers/GM-Cover.png"
+    />
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Funky Robot"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-1.png"
+      />
+      <button
+        class="gm-btn-play"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-2"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Dynasty Plucks"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-2.png"
+      />
+      <button
+        class="gm-btn-play-3"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-4"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Ultra Sub Bass"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-3.png"
+      />
+      <button
+        class="gm-btn-play-5"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-6"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="J-Bass"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-4.png"
+      />
+      <button
+        class="gm-btn-play-7"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-8"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Stepped Drone"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-5.png"
+      />
+      <button
+        class="gm-btn-play-9"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-10"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Bag Pipes"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-6.png"
+      />
+      <button
+        class="gm-btn-play-11"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-12"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Lift Off"
+        class="patch-img"
+        src="/templates/GM-Manual/GM-7.png"
+      />
+      <button
+        class="gm-btn-play-13"
+      >
+        Preview Sound
+      </button>
+      <button
+        class="gm-btn-play-14"
+      >
+        Preview Sound
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 8`] = `
+<DocumentFragment>
+  <div
+    class="patches-div"
+  >
+    <img
+      alt="Cover"
+      class="patch-img"
+      src="/templates/Dark/Dark-1.png"
+    />
+    <img
+      alt="Description"
+      class="patch-img"
+      src="/templates/Dark/Dark-2.png"
+    />
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Disco Tom"
+        class="patch-img"
+        src="/templates/Dark/Dark-3.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Drone Tides"
+        class="patch-img"
+        src="/templates/Dark/Dark-4.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Evolution Arp"
+        class="patch-img"
+        src="/templates/Dark/Dark-5.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Fat Pluck Bass"
+        class="patch-img"
+        src="/templates/Dark/Dark-6.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Organ Lead"
+        class="patch-img"
+        src="/templates/Dark/Dark-7.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Short Flutey Arp"
+        class="patch-img"
+        src="/templates/Dark/Dark-8.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Soft Sizzle Lead"
+        class="patch-img"
+        src="/templates/Dark/Dark-9.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Silky Lead"
+        class="patch-img"
+        src="/templates/Dark/Dark-10.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Syncy Slink Lead"
+        class="patch-img"
+        src="/templates/Dark/Dark-11.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Wrecked Bass"
+        class="patch-img"
+        src="/templates/Dark/Dark-12.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Slowfire"
+        class="patch-img"
+        src="/templates/Dark/Dark-13.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Star-Weaver"
+        class="patch-img"
+        src="/templates/Dark/Dark-14.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Phases"
+        class="patch-img"
+        src="/templates/Dark/Dark-15.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="The Dream"
+        class="patch-img"
+        src="/templates/Dark/Dark-16.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Cosmochordal"
+        class="patch-img"
+        src="/templates/Dark/Dark-17.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Disco Drone"
+        class="patch-img"
+        src="/templates/Dark/Dark-18.png"
+      />
+      <button
+        class="dark-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="End Page"
+        class="patch-img"
+        src="/templates/Dark/Dark-19.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 9`] = `
+<DocumentFragment>
+  <div
+    class="patches-div"
+  >
+    <img
+      alt="Cover"
+      class="patch-img"
+      src="/templates/LBD/LBD-1.png"
+    />
+    <img
+      alt="Description"
+      class="patch-img"
+      src="/templates/LBD/LBD-2.png"
+    />
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Chocolate Factory"
+        class="patch-img"
+        src="/templates/LBD/LBD-3.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="1976 Ensemble"
+        class="patch-img"
+        src="/templates/LBD/LBD-4.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Summmer Of 76"
+        class="patch-img"
+        src="/templates/LBD/LBD-5.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Des Morts"
+        class="patch-img"
+        src="/templates/LBD/LBD-6.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Power Trio"
+        class="patch-img"
+        src="/templates/LBD/LBD-7.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Space Phaser Solo"
+        class="patch-img"
+        src="/templates/LBD/LBD-8.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Hunter Sequence"
+        class="patch-img"
+        src="/templates/LBD/LBD-9.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="After"
+        class="patch-img"
+        src="/templates/LBD/LBD-10.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Bass W Auto Drums"
+        class="patch-img"
+        src="/templates/LBD/LBD-11.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="1981 SEQ"
+        class="patch-img"
+        src="/templates/LBD/LBD-12.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Electronic Forests"
+        class="patch-img"
+        src="/templates/LBD/LBD-13.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Nite Shift"
+        class="patch-img"
+        src="/templates/LBD/LBD-14.png"
+      />
+      <button
+        class="lbd-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="End Page"
+        class="patch-img"
+        src="/templates/LBD/LBD-15.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 10`] = `
+<DocumentFragment>
+  <div
+    class="patches-div"
+  >
+    <img
+      alt="Cover"
+      class="patch-img"
+      src="/templates/MikeDean/MikeDean-1.png"
+    />
+    <img
+      alt="Description"
+      class="patch-img"
+      src="/templates/MikeDean/MikeDean-2.png"
+    />
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Snare"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-3.png"
+      />
+      <button
+        class="md-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Filter Resonance Pluck"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-4.png"
+      />
+      <button
+        class="md-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="909 Kick"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-5.png"
+      />
+      <button
+        class="md-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Feedback Overload"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-6.png"
+      />
+      <button
+        class="md-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Lead Synth"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-7.png"
+      />
+      <button
+        class="md-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="Windy Flute"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-8.png"
+      />
+      <button
+        class="md-btn-play"
+      >
+        Preview Sound
+      </button>
+    </div>
+    <div
+      class="patch-div"
+    >
+      <img
+        alt="End Page"
+        class="patch-img"
+        src="/templates/MikeDean/MikeDean-9.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 11`] = `
+<DocumentFragment>
+  <div
+    class="templates-div-wrap"
+  >
+    <div
+      class="templates-div"
+    >
+      <h1
+        class="header-patchbook-dark"
+      >
+        Grandmother - Dark Patchbook 
+      </h1>
+      <a
+        href="/templates/dark/"
+        params="[object Object]"
+      >
+        <img
+          alt="Dark"
+          class="cover-img"
+          src="../templates/Covers/DarkCover.png"
+        />
+      </a>
+      <h1
+        class="header-patchbook-gm"
+      >
+        Grandmother - Manual Patchbook 
+      </h1>
+      <a
+        href="/templates/gm/"
+      >
+        <img
+          alt="Manual"
+          class="cover-img"
+          src="../templates/Covers/GM-Cover.png"
+        />
+      </a>
+      <h1
+        class="header-patchbook-lbd"
+      >
+        Grandmother - LBD Patchbook 
+      </h1>
+      <a
+        href="/templates/lbd/"
+      >
+        <img
+          alt="LBD"
+          class="cover-img"
+          src="../templates/Covers/LBDCover.png"
+        />
+      </a>
+      <h1
+        class="header-patchbook-md"
+      >
+        Grandmother - Mike Dean Patchbook 
+      </h1>
+      <a
+        href="/templates/mikedean/"
+      >
+        <img
+          alt="Mike Dean"
+          class="cover-img"
+          src="../templates/Covers/MikeDeanCover.png"
+        />
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 12`] = `
+<DocumentFragment>
+  <div
+    class="signup-div-wrap"
+  >
+    <div
+      class="SignupForm"
+    >
+      <div
+        class="container col-md-6 offset-md-3 col-lg-4 offset-lg-4"
+      >
+        <h2
+          class="mb-3"
+        >
+          Edit Account
+        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <form>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Username:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="username"
+                  placeholder="username"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Email:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="email"
+                  placeholder="email"
+                  type="email"
+                  value=""
+                />
+              </div>
+              <button
+                class="btn-edit"
+                type="submit"
+              >
+                Submit
+              </button>
+              <a
+                class="btn-edit"
+                href="/account"
+              >
+                Back
+              </a>
+            </form>
+            <button
+              class="btn-edit-delete"
+            >
+              Delete Account
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 13`] = `
+<DocumentFragment>
+  <div
+    class="signup-div-wrap"
+  >
+    <div
+      class="SignupForm"
+    >
+      <div
+        class="container col-md-6 offset-md-3 col-lg-4 offset-lg-4"
+      >
+        <h2
+          class="mb-3"
+        >
+          Login
+        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <form>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Email:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="email"
+                  type="email"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Password:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="password"
+                  type="password"
+                  value=""
+                />
+              </div>
+              <button
+                class="btn-signup"
+                type="submit"
+              >
+                Login
+              </button>
+              <a
+                class="btn-signup"
+                href="/signup"
+              >
+                Sign Up
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`it matches snapshot 14`] = `
+<DocumentFragment>
+  <div
+    class="signup-div-wrap"
+  >
+    <div
+      class="SignupForm"
+    >
+      <div
+        class="container col-md-6 offset-md-3 col-lg-4 offset-lg-4"
+      >
+        <h2
+          class="mb-3"
+        >
+          Sign Up
+        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <form>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Username:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="username"
+                  placeholder="username"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Password:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="password"
+                  placeholder="password"
+                  type="password"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-labels"
+                >
+                  Email:
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="email"
+                  placeholder="email"
+                  type="email"
+                  value=""
+                />
+              </div>
+              <button
+                class="btn-signup"
+                type="submit"
+              >
+                Submit
+              </button>
+              <a
+                class="btn-signup"
+                href="/login"
+              >
+                Login
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,145 @@
+.about-div  {
+    background-image: 
+    url("/public/images/MoogSynth.png");
+    background-size: 40%;
+    background-repeat: repeat;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+}
+.about-div2  {
+background-color: rgba(0, 0, 0, 0.9);
+min-height: 88vh;
+padding-top: 3rem;
+}
+
+.about-header {
+    font-size: 4vh;
+    font-size: 4vw;
+}
+
+
+.about-para-div {
+    margin-top: 2rem;
+    justify-content: center;
+    background-color: rgb(12, 162, 162);
+}
+
+/* About Card */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+
+.about-container  {
+  position: absolute;
+  left: 50%;
+  margin-top: 17rem;
+  transform: translate(-50%, -50%);
+  height: 30rem;
+  width: 40vw;
+  background: rgb(209, 84, 76);
+  overflow: hidden;
+  border-radius: 20px;
+
+  box-shadow: 0 0 30px 0.1px rgb(209, 84, 76);
+}
+
+
+.about-content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.about-h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.about-h3 {
+  font-weight: 300;
+}
+
+.flap {
+  width: 0%;
+  height: 100%;
+}
+
+
+
+.flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50.1%;
+  background-image: url("/public/images/moog-vector-logo.png");
+  background-size: 50%;
+  background-color: rgb(233, 238, 133);
+  background-position: 100px;
+  background-repeat: cover;
+ 
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background-image: url("/public/images/moog-vector-logo-white.png");
+  background-size: 50%;
+  background-color: rgb(153, 201, 126);
+  background-position: 100px;
+  background-repeat: cover;
+  transition: 1s;
+}
+.moog-vector-logo::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+
+.about-container:hover .flap::after {
+  transform: translatex(500px);
+}
+
+.about-container:hover .flap::before{
+  transform: translatex(-500px);
+}
+
+
+
+  
+  em {
+    font-family: 'Open Sans', sans-serif;
+    color: currentColor;
+    font-size: 7vmin;
+    position: relative;
+    font-style: normal;
+    width: 8vmin;
+    text-align: center;
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    .about-container {
+       height: 30rem;
+       width: 22rem;
+       margin-top: 17rem;
+       
+    }
+}
+
+  
